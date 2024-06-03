@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url('images/background.gif') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #7f10a1e3;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ad50d8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #021a35;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
