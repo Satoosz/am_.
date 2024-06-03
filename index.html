@@ -19,7 +19,7 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', '8217908388');
+        gtag('config', 'G-PK0VJN8ZPS');
     </script>
 </head>
 <body>
@@ -31,24 +31,18 @@
             <a href="https://github.com/Satoosz" data-platform="GITHUB">GITHUB</a>
             <a href="https://www.linkedin.com/in/santos-alfredo-martinez-miranda-98b21127a/" data-platform="LINKEDIN">LINKEDIN</a>
                     <footer>
-        <!-- Agrega aquí tu código de contador de Google Analytics -->
         <div id="visit-counter">Total de visitas: <span id="visit-count">Cargando...</span></div>
         <script>
-            // Función para obtener el número de visitas desde Google Analytics
             function getVisitCount() {
-                // Llama a la API de Google Analytics para obtener el número de visitas
                 gtag('event', 'page_view', {
-                    'send_to': '8217908388', // Reemplaza GA_TRACKING_ID con tu ID de seguimiento de Google Analytics
+                    'send_to': 'G-PK0VJN8ZPS',
                     'event_callback': function() {
-                        // Obtiene el número de visitas del objeto global de Google Analytics
                         var visitCount = gtag.data.get('visitor')['1'];
-                        // Muestra el número de visitas en el elemento HTML
                         document.getElementById('visit-count').textContent = visitCount;
                     }
                 });
             }
 
-            // Llama a la función para obtener el número de visitas al cargar la página
             window.onload = getVisitCount;
         </script>
     </footer>
